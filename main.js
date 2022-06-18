@@ -325,7 +325,7 @@ function drawImageActualSize() {
     gCanvas.width = this.naturalWidth;
     gCanvas.height = this.naturalHeight;
     if (!userImageFlag) gCtx.drawImage(this, 0, 0);
-    else gCtx.drawImage(personalImg, 0, 0);
+    else gCtx.drawImage(imgFromUser, 0, 0);
 }
 
 // render the lines after cahnges
